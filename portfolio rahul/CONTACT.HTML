@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-repeat: no-repeat;
+            background-size: cover;
+            background: rgb(131,58,180);
+            background: linear-gradient(90deg,rgba(131,58,180,1)0%,rgba(253,29,29,1)50%,rgba(22,142,126,1)100%);
+            font-family: arial,sans-serif;
+            padding: 20px;
+        }
+        h1{
+            color:blue;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .container{
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255,255,255,0.8);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+        }
+        .bro{
+            text-align: center;
+
+        }
+        input{
+            border-radius: 0%5px;
+            width: calc(100%-20px);
+            height: 50px;
+            margin-top: 10px;
+            padding: 0 10px;
+            background-color: #ececec;
+            border: 2px solid skyblue;
+            outline: skyblue;
+            box-shadow: 2px 4px 5px skyblue;
+            font-size: 16px;
+
+        }
+        ::placeholder{
+            color:skyblue;
+        }
+         button{
+            width: calc(100%-20px);
+            height: 50px;
+            background-color: skyblue;
+            color: white;
+            cursor: pointer;
+            margin-top: 30px;
+            border-radius: 4px;
+            box-shadow: 2px 4px 5px skyblue;
+            border-color: skyblue;
+            font-size: 20px;
+
+         }
+         /*respective styles */
+         @media (max-width:600px){
+            h1{
+                font-size: 24px;
+
+            }
+            input,button{
+                width:100%;
+                font-size: 14px;
+            }
+            button{
+                font-size: 16px;
+
+            }
+         }
+         @media (min-width:601px){
+            h1{
+                font-size: 18px;
+                margin-top: 30px;
+            }
+            input{
+                width:100%;
+                font-size: 18px;
+                margin-top: 70px;
+            }
+            button{
+                font-size: 20px;
+            }
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bro">
+            <h1>CONTACT</h1>
+            <input type="text" id="name" placeholder="NAME">
+            <input type="email" id="email" placeholder="EMAIL">
+            <input type="tel" id="phone" placeholder="PHONE NUMBER">
+            <input type="text" id="message" placeholder="MESSAGE">
+            <a href="https://accounts.google.com/v3/signin/challenge/pwd?TL=ADgdZ7Rk1KzoB7mXCPOMVNYM-c3EUDZwC951rT-EYydD4CkuBUr7mwDEjfhMP0LV&checkConnection=youtube%3A268&checkedDomains=youtube&cid=2&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ddm=1&emr=1&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=ASSHykp_XfUxV96oPgQcvV0FVvnx6nwHJ3lm2Y_uRVWuJtZimFMiGybISjywlFL70iN4fmHjbSihmQ&osid=1&pstMsg=1&service=mail"><button>SEND</button></a>
+
+        </div>        
+    </div>
+</body>
+</html>
